@@ -10,16 +10,31 @@ public class UserModel {
     @Column(unique = true, nullable = false)
     private Long id;
     
-    private String nombre;
+    private String nombres;
+    private String apellidos;
+    private String usuario;
     private String email;
+    private String password;
     private Integer prioridad;
 
     public Long getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombres() {
+        return nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
     public String getEmail() {
@@ -34,8 +49,20 @@ public class UserModel {
         this.id = id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public void setEmail(String email) {
@@ -45,6 +72,4 @@ public class UserModel {
     public void setPrioridad(Integer prioridad) {
         this.prioridad = prioridad;
     }
-    
-    
 }
