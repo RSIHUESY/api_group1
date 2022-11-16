@@ -9,5 +9,4 @@ public class BonnaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BonnaApplication.class, args);
 	}
-
 }
