@@ -8,7 +8,7 @@ import com.api.bonna.models.ProductModel;
 import com.api.bonna.services.ProductService;
 
 @RestController
-@RequestMapping("categoria")
+@RequestMapping("producto")
 public class ProductController {
     @Autowired
     ProductService productService;
