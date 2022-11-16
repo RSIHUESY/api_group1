@@ -7,7 +7,7 @@ import com.api.bonna.models.UserModel;
 import com.api.bonna.services.UserService;
 
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping("usuario")
 public class UserController {
     @Autowired
     UserService userService;
