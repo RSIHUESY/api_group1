@@ -1,5 +1,4 @@
 package com.api.bonna.models;
-
 import javax.persistence.*;
 
 @Entity
