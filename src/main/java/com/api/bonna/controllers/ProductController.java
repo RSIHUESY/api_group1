@@ -37,9 +37,9 @@ public class ProductController {
     public String deleteUser(@PathVariable("id") Long id){
         boolean ok = this.productService.deleteProduct(id);
         if(ok){
-            return "Se elimino el usuario de id: " + id;
+            return "Se elimino el producto con id: " + id;
         } else {
-            return "No se pudo eliminar al usuario de id: " + id;
+            return "No se pudo eliminar el producto con id: " + id;
         }
     }
 }
