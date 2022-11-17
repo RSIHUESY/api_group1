@@ -3,7 +3,7 @@ package com.api.bonna.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "usuario")
+@Table(name = "producto")
 public class ProductModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
